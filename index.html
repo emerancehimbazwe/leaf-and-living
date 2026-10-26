@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover beautiful indoor plants and pots at Leaf & Living.">
+    <title>Leaf & Living | Indoor Plant Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <a class="logo" href="#home">Leaf <span>&</span> Living</a>
+
+        <p class="nav-label">SHOP</p>
+        <a href="#plants">All Plants</a>
+        <a href="#bestsellers">Bestsellers</a>
+        <a href="#pots">Pots & Planters</a>
+        <a href="#care">Plant Care</a>
+
+        <p class="nav-label">EXPLORE</p>
+        <a href="#about">Our Story</a>
+        <a href="#contact">Contact Us</a>
+
+        <div class="sidebar-note">
+            <span class="leaf-icon">✿</span>
+            <p>Bring a little nature into your everyday.</p>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content" id="home">
+
+        <!-- Header -->
+        <header class="top-header">
+            <div>
+                <p class="eyebrow">A GREENER WAY TO LIVE</p>
+                <h1>Find your happy place.</h1>
+            </div>
+
+            <a class="cart-link" href="#plants" aria-label="Browse plants">
+                Explore Plants <span>↗</span>
+            </a>
+        </header>
+
+        <!-- Hero Banner -->
+        <section class="hero">
+            <img
+                src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1400&q=85"
+                alt="Sunlit room decorated with indoor plants"
+            >
+
+            <div class="hero-overlay">
+                <p class="eyebrow">GROW SOMETHING GOOD</p>
+                <h2>Make room<br>for green.</h2>
+                <p>Thoughtfully chosen plants to make your space feel alive.</p>
+                <a class="primary-button" href="#plants">Shop the collection ↗</a>
+            </div>
+        </section>
+
+        <!-- Introduction -->
+        <section class="intro" id="about">
+            <div>
+                <p class="eyebrow">A LITTLE MORE NATURE</p>
+                <h2>Good plants. Good energy.</h2>
+            </div>
+
+            <p>
+                From leafy statement plants to tiny desk companions,
+                find the perfect green friend for your home.
+            </p>
+        </section>
+
+        <!-- Plant Collection -->
+        <section class="products" id="plants">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">OUR COLLECTION</p>
+                    <h2>Meet your new green friends</h2>
+                </div>
+                <p>Plants for every corner and every kind of plant parent.</p>
+            </div>
+
+            <div class="product-grid">
+
+                <article class="product-card" id="bestsellers">
+                    <a class="product-image" href="#contact">
+                        <img
+                            src="images/plant1.jpg"
+                            alt="Beautiful green indoor plant"
+                            loading="lazy"
+                        >
+                        <span class="product-tag">BESTSELLER</span>
+                    </a>
+                    <p class="product-category">EASY CARE</p>
+                    <h3>Monstera Deliciosa</h3>
+                    <p class="product-description">A tropical statement plant.</p>
+                    <p class="price">18,000 RWF</p>
+                </article>
+
+                <article class="product-card">
+                    <a class="product-image" href="#contact">
+                        <img
+                            src="images/plant2.jpg"
+                            alt="Decorative potted houseplant"
+                            loading="lazy"
+                        >
+                    </a>
+                    <p class="product-category">LOW MAINTENANCE</p>
+                    <h3>Snake Plant</h3>
+                    <p class="product-description">A bold plant for any room.</p>
+                    <p class="price">12,000 RWF</p>
+                </article>
+
+                <article class="product-card" id="pots">
+                    <a class="product-image" href="#contact">
+                        <img
+                            src="images/plant3.jpg"
+                            alt="Indoor plant in a decorative pot"
+                            loading="lazy"
+                        >
+                        <span class="product-tag">POPULAR</span>
+                    </a>
+                    <p class="product-category">HOME FAVOURITE</p>
+                    <h3>Peace Lily</h3>
+                    <p class="product-description">Soft leaves and elegant blooms.</p>
+                    <p class="price">15,000 RWF</p>
+                </article>
+
+                <article class="product-card" id="care">
+                    <a class="product-image" href="#contact">
+                        <img
+                            src="images/mini-garden.jpg"
+                            alt="Small plants arranged in pots"
+                            loading="lazy"
+                        >
+                    </a>
+                    <p class="product-category">DESK COMPANION</p>
+                    <h3>Mini Green Garden</h3>
+                    <p class="product-description">A little touch of nature.</p>
+                    <p class="price">8,000 RWF</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Plant Care Feature -->
+        <section class="care-banner">
+            <div>
+                <p class="eyebrow">NEW TO PLANT PARENTING?</p>
+                <h2>Every green thumb<br>starts somewhere.</h2>
+                <p>Start small, find your rhythm, and watch your plants grow.</p>
+                <a href="#contact" class="light-button">Get in touch ↗</a>
+            </div>
+            <div class="care-decoration" aria-hidden="true">✿</div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter" id="subscribe">
+            <p class="eyebrow">NOTES FROM NATURE</p>
+            <h2>Let's grow together.</h2>
+            <p>Get plant care tips, new arrivals, and a little green inspiration.</p>
+
+            <form action="#" method="get">
+                <label for="email">Your email address</label>
+                <div class="email-row">
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="you@example.com"
+                        required
+                    >
+                    <button type="submit">Subscribe ↗</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer" id="contact">
+            <div class="footer-brand">
+                <a class="logo" href="#home">Leaf <span>&</span> Living</a>
+                <p>A little more green, a little more joy.</p>
+            </div>
+
+            <div>
+                <h3>Explore</h3>
+                <a href="#plants">All Plants</a>
+                <a href="#bestsellers">Bestsellers</a>
+                <a href="#pots">Pots & Planters</a>
+            </div>
+
+            <div>
+                <h3>Information</h3>
+                <a href="#about">Our Story</a>
+                <a href="#care">Plant Care</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div>
+                <h3>Say Hello</h3>
+                <p>Have a question about plants?</p>
+                <a href="mailto:hello@leafandliving.example">Email our team ↗</a>
+            </div>
+
+            <div class="copyright">
+                <p>© 2026 Leaf & Living. Made with care for nature.</p>
+                <a href="#home">Back to top ↑</a>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+</html>
