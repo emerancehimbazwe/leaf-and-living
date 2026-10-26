@@ -12,7 +12,6 @@
     <div class="page-layout">
         <aside class="sidebar">
             <a href="#home" class="logo">leaf &amp; living<span>.</span></a>
-
             <p class="sidebar-note">Bring a little nature into your everyday</p>
 
             <nav class="sidebar-nav" aria-label="Main navigation">
@@ -44,11 +43,7 @@
                     <a href="#shop" class="primary-button">Shop the collection &rarr;</a>
                 </div>
                 <div class="hero-image">
-                    <img
-                        src="images/plant1.jpg"
-                        alt="Beautiful green indoor plant"
-                        decoding="async"
-                    >
+                    <img src="images/plant1.jpg" alt="Beautiful green indoor plant" decoding="async">
                 </div>
             </section>
 
@@ -139,8 +134,10 @@
                         name="email"
                         placeholder="Your email address"
                         autocomplete="email"
+                        aria-describedby="email-help"
                         required
                     >
+                    <p id="email-help">Enter a valid email address to continue.</p>
                     <button type="submit">Subscribe &rarr;</button>
                 </form>
             </section>
