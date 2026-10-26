@@ -1,4 +1,4 @@
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,151 +9,141 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="page-layout">
-        <aside class="sidebar">
-            <a href="#home" class="logo">leaf &amp; living<span>.</span></a>
-            <p class="sidebar-note">Bring a little nature into your everyday</p>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-            <nav class="sidebar-nav" aria-label="Main navigation">
-                <a href="#home">Home</a>
-                <a href="#shop">Shop Plants</a>
-                <a href="#care">Plant Care</a>
-                <a href="#about">About Us</a>
-            </nav>
+    <aside class="sidebar">
+        <h2>Leaf &amp; Living</h2>
+        <p>Your little green corner.</p>
 
-            <div class="sidebar-bottom">
-                <p>Growing happiness, one plant at a time.</p>
-            </div>
-        </aside>
+        <nav aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#shop">Shop Plants</a>
+            <a href="#care">Plant Care</a>
+            <a href="#about">About Us</a>
+        </nav>
+    </aside>
 
-        <main class="main-content">
-            <header class="topbar">
-                <p>Find your next favorite plant.</p>
-                <a href="#shop" class="topbar-link">Explore collection &rarr;</a>
-            </header>
+    <div class="page-container">
+        <header class="topbar">
+            <h1>Welcome to Leaf &amp; Living</h1>
+        </header>
 
+        <main class="main-content" id="main-content" tabindex="-1">
             <section class="hero" id="home">
-                <div class="hero-content">
-                    <p class="eyebrow">A GREENER KIND OF LIVING</p>
-                    <h1>Make room for a little more <span>green.</span></h1>
-                    <p class="hero-description">
-                        Bring your space to life with beautiful plants
-                        chosen to make every day feel a little more natural.
-                    </p>
-                    <a href="#shop" class="primary-button">Shop the collection &rarr;</a>
-                </div>
-                <div class="hero-image">
-                    <img
-                        src="images/plant1.jpg"
-                        alt="Beautiful green indoor plant"
-                        width="600"
-                        height="450"
-                        decoding="async"
-                    >
+                <img
+                    src="images/plant1.jpg"
+                    alt="Beautiful green houseplant"
+                    width="600"
+                    height="450"
+                    decoding="async"
+                >
+                <div class="hero-text">
+                    <h2>Bring Nature Home</h2>
+                    <p>Discover plants that make your space feel alive.</p>
+                    <a href="#shop">Explore Our Plants</a>
                 </div>
             </section>
 
-            <section class="intro-section" id="about">
-                <div>
-                    <p class="eyebrow">GROW WITH US</p>
-                    <h2>A little green goes a long way.</h2>
-                </div>
+            <section class="intro" id="about">
+                <h2>Grow Your Happy Place</h2>
                 <p>
-                    Whether you are a new plant parent or an experienced
-                    plant lover, find something special to make your
-                    space feel more like home.
+                    Welcome to Leaf &amp; Living, your destination for beautiful
+                    indoor plants and simple plant care inspiration.
                 </p>
             </section>
 
-            <section class="products-section" id="shop">
-                <div class="section-heading">
-                    <div>
-                        <p class="eyebrow">OUR FAVORITES</p>
-                        <h2>Plants to fall for</h2>
-                    </div>
-                    <a href="#shop" class="text-link">View all &rarr;</a>
-                </div>
+            <section class="shop" id="shop">
+                <h2>Our Popular Plants</h2>
 
-                <div class="product-grid">
+                <div class="product-container">
                     <article class="product-card">
-                        <img src="images/plant1.jpg" alt="Green leafy indoor plant" width="400" height="400" loading="lazy" decoding="async">
-                        <div class="product-info">
-                            <p class="product-category">INDOOR PLANTS</p>
-                            <h3>The Everyday Green</h3>
-                            <p class="product-price">12,000 RWF</p>
-                        </div>
+                        <img
+                            src="images/plant1.jpg"
+                            alt="Green leafy indoor plant"
+                            width="400"
+                            height="400"
+                            loading="lazy"
+                            decoding="async"
+                        >
+                        <h3>Green Beauty</h3>
+                        <p>A lovely plant to brighten your room.</p>
                     </article>
 
                     <article class="product-card">
-                        <img src="images/plant2.jpg" alt="Decorative potted plant" width="400" height="400" loading="lazy" decoding="async">
-                        <div class="product-info">
-                            <p class="product-category">BEST SELLER</p>
-                            <h3>The Calm Corner</h3>
-                            <p class="product-price">15,000 RWF</p>
-                        </div>
+                        <img
+                            src="images/plant2.jpg"
+                            alt="Decorative potted houseplant"
+                            width="400"
+                            height="400"
+                            loading="lazy"
+                            decoding="async"
+                        >
+                        <h3>Nature Touch</h3>
+                        <p>Bring a natural touch to your home.</p>
                     </article>
 
                     <article class="product-card">
-                        <img src="images/plant3.jpg" alt="Fresh green foliage" width="400" height="400" loading="lazy" decoding="async">
-                        <div class="product-info">
-                            <p class="product-category">PLANT FAVORITE</p>
-                            <h3>The Leafy Friend</h3>
-                            <p class="product-price">10,000 RWF</p>
-                        </div>
+                        <img
+                            src="images/plant3.jpg"
+                            alt="Healthy green plant in a pot"
+                            width="400"
+                            height="400"
+                            loading="lazy"
+                            decoding="async"
+                        >
+                        <h3>Fresh Start</h3>
+                        <p>A fresh green companion for your space.</p>
                     </article>
 
                     <article class="product-card">
-                        <img src="images/mini-garden.jpg" alt="Small decorative indoor garden" width="400" height="400" loading="lazy" decoding="async">
-                        <div class="product-info">
-                            <p class="product-category">GIFT IDEAS</p>
-                            <h3>The Mini Garden</h3>
-                            <p class="product-price">18,000 RWF</p>
-                        </div>
+                        <img
+                            src="images/mini-garden.jpg"
+                            alt="Small indoor garden arrangement"
+                            width="400"
+                            height="400"
+                            loading="lazy"
+                            decoding="async"
+                        >
+                        <h3>Mini Garden</h3>
+                        <p>Create your own little garden indoors.</p>
                     </article>
-                </div>
-            </section>
-
-            <section class="care-banner" id="care">
-                <div>
-                    <p class="eyebrow">A LITTLE HELP TO GROW</p>
-                    <h2>Every green thumb starts somewhere.</h2>
-                    <p>
-                        Learn simple ways to care for your plants and
-                        help them thrive in your home.
-                    </p>
-                    <a href="#newsletter" class="primary-button">Discover plant care &rarr;</a>
                 </div>
             </section>
 
-            <section class="newsletter" id="newsletter">
-                <div>
-                    <p class="eyebrow">LET'S STAY CONNECTED</p>
-                    <h2>A little greenery in your inbox.</h2>
-                    <p>Get plant care tips and updates from Leaf &amp; Living.</p>
-                </div>
+            <section class="care" id="care">
+                <h2>Simple Plant Care</h2>
+                <p>
+                    Give your plants suitable light, water them when needed,
+                    and check their leaves regularly.
+                </p>
+            </section>
 
-                <form class="newsletter-form">
-                    <label class="visually-hidden" for="email">Email address</label>
+            <section class="newsletter">
+                <h2>Join Our Green Community</h2>
+                <p>Get plant care tips and updates from Leaf &amp; Living.</p>
+
+                <form>
+                    <label for="email">Email address</label>
                     <input
                         type="email"
                         id="email"
                         name="email"
-                        placeholder="Your email address"
                         autocomplete="email"
                         aria-describedby="email-help"
+                        placeholder="Enter your email address"
                         required
                     >
                     <p id="email-help">Enter a valid email address to continue.</p>
-                    <button type="submit">Subscribe &rarr;</button>
+                    <button type="submit">Subscribe</button>
                 </form>
             </section>
-
-            <footer class="footer">
-                <a href="#home" class="logo">leaf &amp; living<span>.</span></a>
-                <p>&copy; 2026 Leaf &amp; Living. Growing happiness, one plant at a time.</p>
-                <a href="#home" class="text-link">Back to top &uarr;</a>
-            </footer>
         </main>
+
+        <footer class="footer">
+            <p>&copy; 2026 Leaf &amp; Living. All rights reserved.</p>
+            <a href="#home">Back to top ↑</a>
+        </footer>
     </div>
 </body>
 </html>
+```
