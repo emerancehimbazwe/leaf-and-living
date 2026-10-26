@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover beautiful indoor plants, planters, and plant care essentials at Leaf & Living.">
+    <meta name="description" content="Discover beautiful indoor plants and plant care inspiration at Leaf & Living.">
     <meta property="og:title" content="Leaf &amp; Living | Your Plant Paradise">
     <meta property="og:description" content="Discover beautiful indoor plants and simple plant care inspiration for your home.">
     <meta property="og:type" content="website">
@@ -11,92 +12,164 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a class="skip-link" href="#main-content">Skip to main content</a>
-
     <aside class="sidebar">
-        <h2>Leaf &amp; Living</h2>
-        <p>Your little green corner.</p>
+        <a class="logo" href="#home">Leaf <span>&amp; Living</span></a>
 
-        <nav aria-label="Main navigation">
-            <a href="#home">Home</a>
-            <a href="#shop">Shop Plants</a>
-            <a href="#care">Plant Care</a>
-            <a href="#about">About Us</a>
-        </nav>
+        <p class="nav-label">MENU</p>
+        <a href="#home">Home</a>
+        <a href="#shop">Shop Plants</a>
+        <a href="#care">Plant Care</a>
+        <a href="#about">About Us</a>
+
+        <div class="sidebar-note">
+            <span class="leaf-icon" aria-hidden="true">✿</span>
+            <p>Bring a little nature into your everyday life.</p>
+        </div>
     </aside>
 
-    <div class="page-container">
-        <header class="topbar">
-            <h1>Welcome to Leaf &amp; Living</h1>
+    <main class="main-content" id="home">
+        <header class="top-header">
+            <div>
+                <p class="eyebrow">WELCOME TO LEAF &amp; LIVING</p>
+                <h1>Your Plant Paradise</h1>
+            </div>
+            <a class="cart-link" href="#shop">Explore Plants <span>→</span></a>
         </header>
 
-        <main class="main-content" id="main-content" tabindex="-1">
-            <section class="hero" id="home">
-                <img src="images/plant1.jpg" alt="Beautiful green houseplant" width="600" height="450" decoding="async">
-                <div class="hero-text">
-                    <h2>Bring Nature Home</h2>
-                    <p>Discover plants that make your space feel alive.</p>
-                    <a href="#shop">Explore Our Plants</a>
-                </div>
-            </section>
+        <section class="hero">
+            <img src="images/plant1.jpg" alt="Beautiful green indoor plant" width="600" height="450">
+            <div class="hero-overlay">
+                <p class="eyebrow">MAKE ROOM FOR GREEN</p>
+                <h2>Bring Nature Home</h2>
+                <p>Discover plants that make your space feel alive, calm, and welcoming.</p>
+                <a class="primary-button" href="#shop">Explore Our Plants →</a>
+            </div>
+        </section>
 
-            <section class="intro" id="about">
+        <section class="intro" id="about">
+            <div>
+                <p class="eyebrow">A LITTLE MORE GREEN</p>
                 <h2>Grow Your Happy Place</h2>
-                <p>Welcome to Leaf &amp; Living, your destination for beautiful indoor plants and simple plant care inspiration.</p>
-            </section>
+            </div>
+            <p>Welcome to Leaf &amp; Living, your destination for beautiful indoor plants and simple inspiration to make your home feel more natural.</p>
+        </section>
 
-            <section class="shop" id="shop">
-                <h2>Our Popular Plants</h2>
-
-                <div class="product-container">
-                    <article class="product-card">
-                        <img src="images/plant1.jpg" alt="Green leafy indoor plant" width="400" height="400" loading="lazy" decoding="async">
-                        <h3>Green Beauty</h3>
-                        <p>A lovely plant to brighten your room.</p>
-                    </article>
-
-                    <article class="product-card">
-                        <img src="images/plant2.jpg" alt="Decorative potted houseplant" width="400" height="400" loading="lazy" decoding="async">
-                        <h3>Nature Touch</h3>
-                        <p>Bring a natural touch to your home.</p>
-                    </article>
-
-                    <article class="product-card">
-                        <img src="images/plant3.jpg" alt="Healthy green plant in a pot" width="400" height="400" loading="lazy" decoding="async">
-                        <h3>Fresh Start</h3>
-                        <p>A fresh green companion for your space.</p>
-                    </article>
-
-                    <article class="product-card">
-                        <img src="images/mini-garden.jpg" alt="Small indoor garden arrangement" width="400" height="400" loading="lazy" decoding="async">
-                        <h3>Mini Garden</h3>
-                        <p>Create your own little garden indoors.</p>
-                    </article>
+        <section class="products" id="shop">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">FIND YOUR GREEN COMPANION</p>
+                    <h2>Our Popular Plants</h2>
                 </div>
-            </section>
+                <p>Find a plant to brighten your favourite corner.</p>
+            </div>
 
-            <section class="care" id="care">
-                <h2>Simple Plant Care</h2>
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/plant1.jpg" alt="Green leafy indoor plant" width="400" height="400" loading="lazy">
+                        <span class="product-tag">POPULAR</span>
+                    </div>
+                    <p class="product-category">INDOOR PLANT</p>
+                    <h3>Green Beauty</h3>
+                    <p class="product-description">A lovely plant to brighten your room.</p>
+                    <p class="price">Discover your next plant</p>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/plant2.jpg" alt="Decorative potted houseplant" width="400" height="400" loading="lazy">
+                        <span class="product-tag">FAVOURITE</span>
+                    </div>
+                    <p class="product-category">HOME GREENERY</p>
+                    <h3>Nature Touch</h3>
+                    <p class="product-description">Bring a natural touch to your home.</p>
+                    <p class="price">Discover your next plant</p>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/plant3.jpg" alt="Healthy green plant in a pot" width="400" height="400" loading="lazy">
+                        <span class="product-tag">FRESH PICK</span>
+                    </div>
+                    <p class="product-category">GREEN LIVING</p>
+                    <h3>Fresh Start</h3>
+                    <p class="product-description">A fresh green companion for your space.</p>
+                    <p class="price">Discover your next plant</p>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/mini-garden.jpg" alt="Small indoor garden arrangement" width="400" height="400" loading="lazy">
+                        <span class="product-tag">SMALL SPACES</span>
+                    </div>
+                    <p class="product-category">MINI GARDEN</p>
+                    <h3>Mini Garden</h3>
+                    <p class="product-description">Create your own little garden indoors.</p>
+                    <p class="price">Discover your next plant</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="care-banner" id="care">
+            <div>
+                <p class="eyebrow">GROW WITH CONFIDENCE</p>
+                <h2>Happy Plants,<br>Happy Home</h2>
                 <p>Give your plants suitable light, water them when needed, and check their leaves regularly.</p>
-            </section>
+                <a class="light-button" href="#newsletter">Get Plant Care Tips →</a>
+            </div>
+            <span class="care-decoration" aria-hidden="true">✿</span>
+        </section>
 
-            <section class="newsletter">
-                <h2>Join Our Green Community</h2>
-                <p>Get plant care tips and updates from Leaf &amp; Living.</p>
+        <section class="newsletter" id="newsletter">
+            <p class="eyebrow">A NOTE FROM NATURE</p>
+            <h2>Join Our Green Community</h2>
+            <p>Get plant care inspiration and updates from Leaf &amp; Living.</p>
 
-                <form>
-                    <label for="email">Email address</label>
-                    <input type="email" id="email" name="email" autocomplete="email" aria-describedby="email-help" placeholder="Enter your email address" required>
-                    <p id="email-help">Enter a valid email address to continue.</p>
+            <form action="#" method="get">
+                <label for="email">Email address</label>
+                <div class="email-row">
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        placeholder="Enter your email address"
+                        required
+                    >
                     <button type="submit">Subscribe</button>
-                </form>
-            </section>
-        </main>
+                </div>
+            </form>
+        </section>
 
         <footer class="footer">
-            <p>&copy; 2026 Leaf &amp; Living. All rights reserved.</p>
-            <a href="#home">Back to top ↑</a>
+            <div class="footer-brand">
+                <a class="logo" href="#home">Leaf <span>&amp; Living</span></a>
+                <p>A little more green, a little more joy.</p>
+            </div>
+
+            <div>
+                <h3>Explore</h3>
+                <a href="#home">Home</a>
+                <a href="#shop">Shop Plants</a>
+                <a href="#care">Plant Care</a>
+            </div>
+
+            <div>
+                <h3>Discover</h3>
+                <a href="#about">About Us</a>
+                <a href="#newsletter">Newsletter</a>
+            </div>
+
+            <div>
+                <h3>Our Promise</h3>
+                <p>Simple inspiration for greener living.</p>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2026 Leaf &amp; Living. All rights reserved.</p>
+                <a href="#home">Back to top ↑</a>
+            </div>
         </footer>
-    </div>
+    </main>
 </body>
 </html>
