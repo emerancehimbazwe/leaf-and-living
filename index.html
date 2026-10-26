@@ -11,7 +11,7 @@
 <body>
     <div class="page-layout">
         <aside class="sidebar">
-            <a href="#" class="logo">leaf &amp; living<span>.</span></a>
+            <a href="#home" class="logo">leaf &amp; living<span>.</span></a>
 
             <p class="sidebar-note">Bring a little nature into your everyday</p>
 
@@ -129,7 +129,14 @@
 
                 <form class="newsletter-form">
                     <label class="visually-hidden" for="email">Email address</label>
-                    <input type="email" id="email" placeholder="Your email address">
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Your email address"
+                        autocomplete="email"
+                        required
+                    >
                     <button type="submit">Subscribe &rarr;</button>
                 </form>
             </section>
